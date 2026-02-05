@@ -6,13 +6,15 @@ $davys-grey : #494f5c;
 $granite-grey: #666666;
 $sonic-silver: #777777; 
 $arsenic: #3b3e48;
-$css-grey: #7d828a;
+$davys-grey: #7d828a;
 $japanese-indigo: #2c3e50;
 $pine-tree: #272822;
 $taupe-grey: #878787;
 $chinese-silver: #cccccc;
 $anti-flash-white: #f1f1f1;
 $lapis-lazuli: #21759b; 
+$pure-black: #000000;
+$comfy-white: #DADADA;
 
 // Default Colors and Opacity for Admonition
 $blueberry: #448aff;
@@ -29,16 +31,16 @@ $admonition-background-opacity : 0.1;
 $dimmed-opacity: 0.8 !default;
 
 // Background color
-$html-background: $davys-grey !default;
+$html-background: $pure-black !default;
 
 // Site Navigation color
-$site-nav-children-border-right:$css-grey !default;
+$site-nav-children-border-right:$davys-grey !default;
 
 // Posts seperator in list view
-$post-item-border-bottom: $css-grey !default;
+$post-item-border-bottom: $davys-grey !default;
 
 // Pinned posts group seperator in list view
-$pinned-posts-group-border-bottom: $css-grey !default;
+$pinned-posts-group-border-bottom: $davys-grey !default;
 
 // Elements of the site which are expected to follow accent color
 // In this current form, `accentColor` in hugo.toml will have higher precedence than these declarations
@@ -75,10 +77,10 @@ $tableofcontents-scrollbar-thumb: $japanese-indigo !default;
 $tableofcontents-scrollbar-thumb-hover: lighten($japanese-indigo, 10%) !default;
 
 // Text color
-$text: $bright-grey !default;
+$text: $comfy-white !default;
 
 // Text selection color
-$text-select: $css-grey !default;
+$text-select: $davys-grey !default;
 
 // Marked text color
 $marked-text:$bright-grey !default;
@@ -92,7 +94,7 @@ $btn-404-a-hover: $white !default;
 
 // Social Share links pane
 $share-links-background: $japanese-indigo !default;
-$share-links-a: $css-grey !default;
+$share-links-a: $davys-grey !default;
 $share-links-a-hover-active-focus: $bright-grey !default;
 
 // Code block, Mermaid block color
